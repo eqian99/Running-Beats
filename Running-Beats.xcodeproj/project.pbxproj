@@ -8,24 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		F615F89D210C231B00F97B5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F615F89C210C231B00F97B5C /* AppDelegate.m */; };
-		F615F8A0210C231B00F97B5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F615F89F210C231B00F97B5C /* ViewController.m */; };
 		F615F8A3210C231B00F97B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F615F8A1210C231B00F97B5C /* Main.storyboard */; };
 		F615F8A5210C231C00F97B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F615F8A4210C231C00F97B5C /* Assets.xcassets */; };
 		F615F8A8210C231C00F97B5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F615F8A6210C231C00F97B5C /* LaunchScreen.storyboard */; };
 		F615F8AB210C231C00F97B5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F615F8AA210C231C00F97B5C /* main.m */; };
+		F615F8B7210C2B7600F97B5C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F615F8B6210C2B7600F97B5C /* AVFoundation.framework */; };
+		F615F8B9210C2B8A00F97B5C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F615F8B8210C2B8A00F97B5C /* SystemConfiguration.framework */; };
+		F615F8C0210C31C500F97B5C /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F615F8BE210C31C400F97B5C /* SpotifyAuthentication.framework */; };
+		F615F8C1210C31C500F97B5C /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F615F8BF210C31C500F97B5C /* SpotifyAudioPlayback.framework */; };
+		F615F8C4210D01DC00F97B5C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F615F8C3210D01DC00F97B5C /* LoginViewController.m */; };
+		F615F8C7210D01F300F97B5C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F615F8C6210D01F300F97B5C /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F615F898210C231B00F97B5C /* Running-Beats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Running-Beats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F615F89B210C231B00F97B5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F615F89C210C231B00F97B5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F615F89E210C231B00F97B5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F615F89F210C231B00F97B5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F615F8A2210C231B00F97B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F615F8A4210C231C00F97B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F615F8A7210C231C00F97B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F615F8A9210C231C00F97B5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F615F8AA210C231C00F97B5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F615F8B6210C2B7600F97B5C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F615F8B8210C2B8A00F97B5C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F615F8BE210C31C400F97B5C /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		F615F8BF210C31C500F97B5C /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		F615F8C2210D01DC00F97B5C /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F615F8C3210D01DC00F97B5C /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F615F8C5210D01F300F97B5C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F615F8C6210D01F300F97B5C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +44,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F615F8C0210C31C500F97B5C /* SpotifyAuthentication.framework in Frameworks */,
+				F615F8B9210C2B8A00F97B5C /* SystemConfiguration.framework in Frameworks */,
+				F615F8B7210C2B7600F97B5C /* AVFoundation.framework in Frameworks */,
+				F615F8C1210C31C500F97B5C /* SpotifyAudioPlayback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +59,7 @@
 			children = (
 				F615F89A210C231B00F97B5C /* Running-Beats */,
 				F615F899210C231B00F97B5C /* Products */,
+				F615F8B1210C2AA200F97B5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +74,12 @@
 		F615F89A210C231B00F97B5C /* Running-Beats */ = {
 			isa = PBXGroup;
 			children = (
+				F615F8C2210D01DC00F97B5C /* LoginViewController.h */,
+				F615F8C3210D01DC00F97B5C /* LoginViewController.m */,
+				F615F8C5210D01F300F97B5C /* MainViewController.h */,
+				F615F8C6210D01F300F97B5C /* MainViewController.m */,
 				F615F89B210C231B00F97B5C /* AppDelegate.h */,
 				F615F89C210C231B00F97B5C /* AppDelegate.m */,
-				F615F89E210C231B00F97B5C /* ViewController.h */,
-				F615F89F210C231B00F97B5C /* ViewController.m */,
 				F615F8A1210C231B00F97B5C /* Main.storyboard */,
 				F615F8A4210C231C00F97B5C /* Assets.xcassets */,
 				F615F8A6210C231C00F97B5C /* LaunchScreen.storyboard */,
@@ -69,6 +87,17 @@
 				F615F8AA210C231C00F97B5C /* main.m */,
 			);
 			path = "Running-Beats";
+			sourceTree = "<group>";
+		};
+		F615F8B1210C2AA200F97B5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F615F8BF210C31C500F97B5C /* SpotifyAudioPlayback.framework */,
+				F615F8BE210C31C400F97B5C /* SpotifyAuthentication.framework */,
+				F615F8B8210C2B8A00F97B5C /* SystemConfiguration.framework */,
+				F615F8B6210C2B7600F97B5C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F615F8A0210C231B00F97B5C /* ViewController.m in Sources */,
 				F615F8AB210C231C00F97B5C /* main.m in Sources */,
 				F615F89D210C231B00F97B5C /* AppDelegate.m in Sources */,
+				F615F8C4210D01DC00F97B5C /* LoginViewController.m in Sources */,
+				F615F8C7210D01F300F97B5C /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,11 +315,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T43H6FGZD6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Running-Beats/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "EmmaQian.Running-Beats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,11 +338,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T43H6FGZD6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Running-Beats/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "EmmaQian.Running-Beats";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
